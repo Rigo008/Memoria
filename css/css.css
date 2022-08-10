@@ -10,7 +10,7 @@
 .fruta {
     width: 100px;
     height: 100px;
-    background-color: orange;
+    background-color: red;
     margin: 5px;
     font-size: 40px;
     cursor: pointer;
@@ -21,7 +21,7 @@
 }
 
 .activar {
-    background-color: green;
+    background-color: blue;
     content-visibility: hidden;
     transform: rotateY(180deg);
     transition: .3s;
