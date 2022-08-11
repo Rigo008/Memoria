@@ -21,6 +21,7 @@ body {
     font-family: calibri;
 }
 
+<<<<<<< HEAD
 div {
     display: inline-block;
 }
@@ -28,6 +29,14 @@ div {
 .area-tarjeta,
 .tarjeta,
 .cara {
+=======
+.fruta {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    font-size: 40px;
+>>>>>>> 53d1101779baad39089fd2eb8186f4505db07f14
     cursor: pointer;
     width: var(--w);
     min-width: 100px;
@@ -50,8 +59,14 @@ div {
     align-items: center;
 }
 
+<<<<<<< HEAD
 .trasera {
     background-color: rgb(151, 241, 77);
+=======
+.activar {
+    background-color: blue;
+    content-visibility: hidden;
+>>>>>>> 53d1101779baad39089fd2eb8186f4505db07f14
     transform: rotateY(180deg);
 }
 
